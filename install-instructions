@@ -1,3 +1,4 @@
 1. We added    sudo apt-get install make
 2. sudo apt install zlib1g-dev
-3. sudo make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert scp" install
+3. sudo ./configure
+4. sudo make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert scp" install
