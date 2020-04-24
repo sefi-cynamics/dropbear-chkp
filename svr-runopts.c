@@ -103,6 +103,11 @@ static void printhelp(const char * progname) {
 #if DEBUG_TRACE
 					"-v		verbose (compiled with DEBUG_TRACE)\n"
 #endif
+
+#if DROPBEAR_DELAY_HOSTKEY
+					"-U listening to UDP packets\n"
+#endif
+					
 					,DROPBEAR_VERSION, progname,
 #if DROPBEAR_DSS
 					DSS_PRIV_FILENAME,
