@@ -104,7 +104,7 @@ static void printhelp(const char * progname) {
 					"-v		verbose (compiled with DEBUG_TRACE)\n"
 #endif
 
-#if DROPBEAR_DELAY_HOSTKEY
+#if UDP_LISTENER
 					"-U listening to UDP packets\n"
 #endif
 					

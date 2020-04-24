@@ -128,6 +128,8 @@ IMPORTANT: Some options will require "make clean" after changes */
    with badly seeded /dev/urandom when systems first boot. */
 #define DROPBEAR_DELAY_HOSTKEY 1
 
+/* Add runtime flag "-U" to listen UDP*/
+#define UDP_LISTENER 1
 
 /* Key exchange algorithm.
 

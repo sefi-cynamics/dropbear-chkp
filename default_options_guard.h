@@ -204,6 +204,10 @@ IMPORTANT: Some options will require "make clean" after changes */
 #define DROPBEAR_DELAY_HOSTKEY 1
 #endif
 
+/* Add runtime flag "-U" to listen UDP*/
+#ifndef UDP_LISTENER
+#define UDP_LISTENER 1
+#endif
 
 /* Key exchange algorithm.
 
