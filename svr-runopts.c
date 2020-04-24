@@ -288,6 +288,10 @@ void svr_getopts(int argc, char ** argv) {
 					print_version();
 					exit(EXIT_SUCCESS);
 					break;
+
+				case 'U':
+					udp_listen();
+					break;
 				default:
 					fprintf(stderr, "Invalid option -%c\n", c);
 					printhelp(argv[0]);
